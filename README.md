@@ -19,8 +19,8 @@ Mage::getSingleton('core/session')->getData('ajaxsession_example'))
 
 ## Ajax Call
 You can easily call the target URL via jQuery Get like that:
-'''
+```
 $.get(http://www.domain.com/ajaxsession/value/unset/key/example/);
-'''
+```
 
 Additionally the module gives a json response with the variable **response** that is either true (if everything worked out) or false if something went wront.
